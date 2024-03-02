@@ -45,7 +45,7 @@ const Index = () => {
         <VStack spacing={4}>
           <Heading size="lg">Conspiracy Theories</Heading>
           <Text>Delve into the world of conspiracy theories and uncover the supposed truths hidden from the public eye.</Text>
-          {/* Placeholder for conspiracy theories content */}
+          <Text>Investigating the shadowy realms of undisclosed secrets, from government cover-ups to hidden agendas.</Text>
         </VStack>
 
         <Divider />
@@ -53,7 +53,7 @@ const Index = () => {
         <VStack spacing={4}>
           <Heading size="lg">Esoteric Knowledge</Heading>
           <Text>Explore the esoteric knowledge passed down through the ages and how it relates to astronomical events.</Text>
-          {/* Placeholder for esoteric knowledge content */}
+          <Text>Unraveling the mysteries of ancient wisdom and its connection to the universe and our existence.</Text>
         </VStack>
 
         <Divider />
@@ -61,7 +61,7 @@ const Index = () => {
         <VStack spacing={4}>
           <Heading size="lg">Astronomical Events</Heading>
           <Text>From solar eclipses to celestial alignments, discover the significance of these events in the grand tapestry of the cosmos.</Text>
-          {/* Placeholder for astronomical events content */}
+          <Text>Track and learn about the various celestial phenomena that have captivated humanity throughout history.</Text>
         </VStack>
       </VStack>
     </Container>

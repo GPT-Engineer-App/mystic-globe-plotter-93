@@ -7,7 +7,8 @@ const Globe = () => {
       <Navigation />
       <VStack spacing={8} align="stretch">
         <Heading>Mysteries of the Cosmos - Globe</Heading>
-        <p>3D Globe Model Placeholder</p>
+        <Image src="/static/globe-placeholder.jpg" alt="Globe Placeholder" boxSize="500px" objectFit="cover" />
+        <Text>Interactive globe model with marked points for significant sites, including the patterns they form such as pentagrams and circles.</Text>
         {}
         <Heading size="lg">Points of Interest</Heading>
         {}
