@@ -1,9 +1,11 @@
 import { Box, Container, Heading, Text, VStack, HStack, Image, Link, Divider } from "@chakra-ui/react";
 import { FaGlobe } from "react-icons/fa";
+import Navigation from "../components/Navigation";
 
 const Index = () => {
   return (
     <Container maxW="container.xl" p={4}>
+      <Navigation />
       <VStack spacing={8} align="stretch">
         <Box textAlign="center">
           <Heading>Mysteries of the Cosmos</Heading>
