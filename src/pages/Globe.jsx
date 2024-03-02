@@ -1,4 +1,5 @@
-import { Container, Heading, VStack, Text, List, ListItem, ListIcon } from "@chakra-ui/react";
+import { Container, Heading, VStack, List, ListItem, ListIcon } from "@chakra-ui/react";
+import Fake3DMap from "../components/Fake3DMap";
 import { FaStar } from "react-icons/fa";
 import Navigation from "../components/Navigation";
 
@@ -15,7 +16,7 @@ const Globe = () => {
       <VStack spacing={8} align="stretch">
         <Heading>Mysteries of the Cosmos - Globe</Heading>
         {}
-        <Text>Placeholder for an interactive 3D globe model which will include marked points for significant sites and the patterns they form, such as pentagrams and circles. (Interactive globe feature is planned for future development.)</Text>
+        <Fake3DMap />
         <Heading size="lg">Points of Interest</Heading>
         <List spacing={3}>
           {markedPoints.map((point) => (
